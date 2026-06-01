@@ -33,76 +33,43 @@ export default function LandingPage() {
       <NavbarLayoutFloatingOverlay
       navItems={[
         {
-          name: "Home",
-          id: "#hero",
-        },
+          name: "Home",          id: "#hero"},
         {
-          name: "About Us",
-          id: "#about",
-        },
+          name: "About Us",          id: "#about"},
         {
-          name: "Menu",
-          id: "#menu",
-        },
+          name: "Menu",          id: "#menu"},
         {
-          name: "Reviews",
-          id: "#testimonials",
-        },
+          name: "Reviews",          id: "#testimonials"},
         {
-          name: "Contact",
-          id: "#contact",
-        },
+          name: "Contact",          id: "#contact"},
       ]}
       logoSrc="http://img.b2bpic.net/free-vector/restaurant-logo-food-business-template-branding-design-vector_53876-154130.jpg"
       logoAlt="Delfin Restaurant Logo"
       brandName="Delfin"
       button={{
-        text: "Make a Reservation",
-        href: "#contact",
-      }}
+        text: "Make a Reservation",        href: "#contact"}}
     />
   </div>
 
   <div id="hero" data-section="hero">
       <HeroSplitDualMedia
       background={{
-        variant: "plain",
-      }}
+        variant: "plain"}}
       title="Experience Culinary Excellence at Delfin"
       description="Indulge in an unforgettable dining journey with exquisite dishes, impeccable service, and a warm, inviting atmosphere. Delfin combines tradition with innovation for a unique taste experience."
       tag="Your Premier Dining Destination"
       buttons={[
         {
-          text: "View Our Menu",
-          href: "#menu",
-        },
+          text: "View Our Menu",          href: "#menu"},
         {
-          text: "Make a Reservation",
-          href: "#contact",
-        },
+          text: "Make a Reservation",          href: "#contact"},
       ]}
       buttonAnimation="opacity"
       mediaItems={[
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/portrait-young-young-woman-sitting-modern-cafe_171337-17121.jpg",
-          imageAlt: "Elegant restaurant interior with dining tables",
-        },
+          imageSrc: "http://img.b2bpic.net/free-photo/portrait-young-young-woman-sitting-modern-cafe_171337-17121.jpg",          imageAlt: "upscale restaurant interior dining table"},
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/front-view-delicious-food-concept_23-2148510924.jpg",
-          imageAlt: "Chef plating a gourmet dish",
-        },
-        {
-          imageSrc: "http://img.b2bpic.net/free-photo/empty-wood-chair_1339-6717.jpg",
-          imageAlt: "empty wood chair",
-        },
-        {
-          imageSrc: "http://img.b2bpic.net/free-photo/dining-room-background-zoom-calls_52683-95236.jpg",
-          imageAlt: "Dining room background for zoom calls",
-        },
-        {
-          imageSrc: "http://img.b2bpic.net/free-photo/colorful-shot-modern-light-blue-sofa-white-wooden-table_181624-27906.jpg",
-          imageAlt: "Colorful shot of modern light blue sofa, white wooden table",
-        },
+          imageSrc: "http://img.b2bpic.net/free-photo/front-view-delicious-food-concept_23-2148510924.jpg",          imageAlt: "chef plating gourmet dish close-up"}
       ]}
       mediaAnimation="slide-up"
       rating={4.2}
@@ -115,13 +82,10 @@ export default function LandingPage() {
       useInvertedBackground={true}
       title="About Delfin: A Taste of Perfection"
       description={[
-        "Nestled in the heart of Tetovo, Delfin has been a cherished culinary landmark, offering a blend of traditional flavors and modern dining. Our commitment to quality ingredients, creative dishes, and exceptional service sets us apart.",
-        "We pride ourselves on creating a memorable experience for every guest, whether you're joining us for a family dinner, a romantic evening, or a special celebration. Discover the passion behind every plate at Delfin.",
-      ]}
+        "Nestled in the heart of Tetovo, Delfin has been a cherished culinary landmark, offering a blend of traditional flavors and modern dining. Our commitment to quality ingredients, creative dishes, and exceptional service sets us apart.",        "We pride ourselves on creating a memorable experience for every guest, whether you're joining us for a family dinner, a romantic evening, or a special celebration. Discover the passion behind every plate at Delfin."]}
       buttons={[
         {
-          text: "Our Story",
-        },
+          text: "Our Story"},
       ]}
       buttonAnimation="opacity"
     />
@@ -134,39 +98,21 @@ export default function LandingPage() {
       useInvertedBackground={false}
       features={[
         {
-          id: "outdoor-seating",
-          title: "Delightful Outdoor Seating",
-          subtitle: "Enjoy your meal under the stars or in the warm daylight on our charming patio.",
-          category: "Experience",
-          value: "Comfort & Ambiance",
-          buttons: [
+          id: "outdoor-seating",          title: "Delightful Outdoor Seating",          subtitle: "Enjoy your meal under the stars or in the warm daylight on our charming patio.",          category: "Experience",          value: "Comfort & Ambiance",          buttons: [
             {
-              text: "View Gallery",
-            },
+              text: "View Gallery"},
           ],
         },
         {
-          id: "great-cocktails",
-          title: "Exquisite Cocktail Selection",
-          subtitle: "Our expert mixologists craft the perfect drinks to complement your dining experience.",
-          category: "Drinks",
-          value: "Craft & Flavor",
-          buttons: [
+          id: "great-cocktails",          title: "Exquisite Cocktail Selection",          subtitle: "Our expert mixologists craft the perfect drinks to complement your dining experience.",          category: "Drinks",          value: "Craft & Flavor",          buttons: [
             {
-              text: "View Bar Menu",
-            },
+              text: "View Bar Menu"},
           ],
         },
         {
-          id: "kids-menu",
-          title: "Thoughtful Kids' Menu",
-          subtitle: "Delicious and healthy options designed to please our younger guests.",
-          category: "Family",
-          value: "Happy Children",
-          buttons: [
+          id: "kids-menu",          title: "Thoughtful Kids' Menu",          subtitle: "Delicious and healthy options designed to please our younger guests.",          category: "Family",          value: "Happy Children",          buttons: [
             {
-              text: "Explore Kids Meals",
-            },
+              text: "Explore Kids Meals"},
           ],
         },
       ]}
@@ -184,65 +130,23 @@ export default function LandingPage() {
       useInvertedBackground={true}
       products={[
         {
-          id: "product-1",
-          brand: "Delfin Classics",
-          name: "Macaroni and Cheese",
-          price: "MKD 450",
-          rating: 4.5,
-          reviewCount: "120 reviews",
-          imageSrc: "http://img.b2bpic.net/free-photo/pasta-with-mushroom_74190-836.jpg",
-          imageAlt: "Creamy baked macaroni and cheese",
-        },
+          id: "product-1",          brand: "Delfin Classics",          name: "Macaroni and Cheese",          price: "MKD 450",          rating: 4.5,
+          reviewCount: "120 reviews",          imageSrc: "http://img.b2bpic.net/free-photo/pasta-with-mushroom_74190-836.jpg",          imageAlt: "Creamy baked macaroni and cheese"},
         {
-          id: "product-2",
-          brand: "Premium Cuts",
-          name: "Beef Steak",
-          price: "MKD 950",
-          rating: 4.8,
-          reviewCount: "210 reviews",
-          imageSrc: "http://img.b2bpic.net/free-photo/high-angle-steak-with-cutlery-copy-space_23-2148611071.jpg",
-          imageAlt: "Perfectly seared beef steak",
-        },
+          id: "product-2",          brand: "Premium Cuts",          name: "Beef Steak",          price: "MKD 950",          rating: 4.8,
+          reviewCount: "210 reviews",          imageSrc: "http://img.b2bpic.net/free-photo/high-angle-steak-with-cutlery-copy-space_23-2148611071.jpg",          imageAlt: "Perfectly seared beef steak"},
         {
-          id: "product-3",
-          brand: "Artisan Pizza",
-          name: "Signature Pizza",
-          price: "MKD 600",
-          rating: 4.6,
-          reviewCount: "180 reviews",
-          imageSrc: "http://img.b2bpic.net/free-photo/baking-delicious-pizza-with-wood-fired-oven_23-2150134250.jpg",
-          imageAlt: "Freshly baked gourmet pizza",
-        },
+          id: "product-3",          brand: "Artisan Pizza",          name: "Signature Pizza",          price: "MKD 600",          rating: 4.6,
+          reviewCount: "180 reviews",          imageSrc: "http://img.b2bpic.net/free-photo/baking-delicious-pizza-with-wood-fired-oven_23-2150134250.jpg",          imageAlt: "Freshly baked gourmet pizza"},
         {
-          id: "product-4",
-          brand: "Grill Master's Selection",
-          name: "Mixed Grilled Meat",
-          price: "MKD 850",
-          rating: 4.7,
-          reviewCount: "150 reviews",
-          imageSrc: "http://img.b2bpic.net/free-photo/fried-meat-with-vegetables-table_140725-4690.jpg",
-          imageAlt: "Platter of assorted grilled meats",
-        },
+          id: "product-4",          brand: "Grill Master's Selection",          name: "Mixed Grilled Meat",          price: "MKD 850",          rating: 4.7,
+          reviewCount: "150 reviews",          imageSrc: "http://img.b2bpic.net/free-photo/fried-meat-with-vegetables-table_140725-4690.jpg",          imageAlt: "Platter of assorted grilled meats"},
         {
-          id: "product-5",
-          brand: "Fresh Catch",
-          name: "Grilled Fish",
-          price: "MKD 700",
-          rating: 4.4,
-          reviewCount: "90 reviews",
-          imageSrc: "http://img.b2bpic.net/free-photo/fried-fish-served-with-potatoes-tomatoes-lemon-slice-sauce_140725-7844.jpg",
-          imageAlt: "Grilled whole fish with herbs and lemon",
-        },
+          id: "product-5",          brand: "Fresh Catch",          name: "Grilled Fish",          price: "MKD 700",          rating: 4.4,
+          reviewCount: "90 reviews",          imageSrc: "http://img.b2bpic.net/free-photo/fried-fish-served-with-potatoes-tomatoes-lemon-slice-sauce_140725-7844.jpg",          imageAlt: "Grilled whole fish with herbs and lemon"},
         {
-          id: "product-6",
-          brand: "Delfin Classics",
-          name: "Prime Steak",
-          price: "MKD 1000",
-          rating: 4.9,
-          reviewCount: "250 reviews",
-          imageSrc: "http://img.b2bpic.net/free-photo/fried-meat-with-tomato-slices-greens-sauce-rosemary-sprig_140725-8549.jpg",
-          imageAlt: "Juicy prime steak with a side dish",
-        },
+          id: "product-6",          brand: "Delfin Classics",          name: "Prime Steak",          price: "MKD 1000",          rating: 4.9,
+          reviewCount: "250 reviews",          imageSrc: "http://img.b2bpic.net/free-photo/fried-meat-with-tomato-slices-greens-sauce-rosemary-sprig_140725-8549.jpg",          imageAlt: "Juicy prime steak with a side dish"},
       ]}
       title="Our Signature Dishes"
       description="A glimpse into our diverse menu, featuring customer favorites and culinary masterpieces."
@@ -257,64 +161,28 @@ export default function LandingPage() {
       useInvertedBackground={false}
       testimonials={[
         {
-          id: "1",
-          name: "Elena P.",
-          role: "Regular Patron",
-          company: "Local Foodie",
-          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/young-woman-with-dark-long-hair-talking-phone-coffee-shop_273609-2803.jpg",
-          videoAriaLabel: "Elena P. testimonial video",
-        },
+          id: "1",          name: "Elena P.",          role: "Regular Patron",          company: "Local Foodie",          rating: 5,
+          imageSrc: "http://img.b2bpic.net/free-photo/young-woman-with-dark-long-hair-talking-phone-coffee-shop_273609-2803.jpg",          videoAriaLabel: "Elena P. testimonial video"},
         {
-          id: "2",
-          name: "Marko K.",
-          role: "Gourmet Enthusiast",
-          company: "Tetovo Reviews",
-          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/crazy-young-man-with-table-happy-expression_1194-4591.jpg",
-          videoAriaLabel: "Marko K. testimonial video",
-        },
+          id: "2",          name: "Marko K.",          role: "Gourmet Enthusiast",          company: "Tetovo Reviews",          rating: 5,
+          imageSrc: "http://img.b2bpic.net/free-photo/crazy-young-man-with-table-happy-expression_1194-4591.jpg",          videoAriaLabel: "Marko K. testimonial video"},
         {
-          id: "3",
-          name: "Sophia G.",
-          role: "Family Visitor",
-          company: "Traveler's Choice",
-          rating: 4,
-          imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-smiley-friends-eating-pizza_23-2149872397.jpg",
-          videoAriaLabel: "Sophia G. testimonial video",
-        },
+          id: "3",          name: "Sophia G.",          role: "Family Visitor",          company: "Traveler's Choice",          rating: 4,
+          imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-smiley-friends-eating-pizza_23-2149872397.jpg",          videoAriaLabel: "Sophia G. testimonial video"},
         {
-          id: "4",
-          name: "Aleksandar M.",
-          role: "Chef & Critic",
-          company: "Culinary Scene",
-          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/father-funny-son-tasting-dish_23-2148351766.jpg",
-          videoAriaLabel: "Aleksandar M. testimonial video",
-        },
+          id: "4",          name: "Aleksandar M.",          role: "Chef & Critic",          company: "Culinary Scene",          rating: 5,
+          imageSrc: "http://img.b2bpic.net/free-photo/father-funny-son-tasting-dish_23-2148351766.jpg",          videoAriaLabel: "Aleksandar M. testimonial video"},
         {
-          id: "5",
-          name: "Isabella R.",
-          role: "Cocktail Lover",
-          company: "Nightlife Explorer",
-          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-woman-girl-with-food_23-2148972772.jpg",
-          videoAriaLabel: "Isabella R. testimonial video",
-        },
+          id: "5",          name: "Isabella R.",          role: "Cocktail Lover",          company: "Nightlife Explorer",          rating: 5,
+          imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-woman-girl-with-food_23-2148972772.jpg",          videoAriaLabel: "Isabella R. testimonial video"},
       ]}
       kpiItems={[
         {
-          value: "4.2/5",
-          label: "Average Rating",
-        },
+          value: "4.2/5",          label: "Average Rating"},
         {
-          value: "471+",
-          label: "Happy Reviews",
-        },
+          value: "471+",          label: "Happy Reviews"},
         {
-          value: "10+",
-          label: "Years in Business",
-        },
+          value: "10+",          label: "Years in Business"},
       ]}
       title="What Our Guests Say"
       description="Don't just take our word for it – hear from our satisfied customers who have experienced the Delfin difference."
@@ -329,25 +197,13 @@ export default function LandingPage() {
       useInvertedBackground={true}
       metrics={[
         {
-          id: "metric-1",
-          value: "4.2",
-          title: "Average Google Rating",
-          description: "Reflecting consistent quality and customer satisfaction.",
-          icon: Star,
+          id: "metric-1",          value: "4.2",          title: "Average Google Rating",          description: "Reflecting consistent quality and customer satisfaction.",          icon: Star,
         },
         {
-          id: "metric-2",
-          value: "471+",
-          title: "Satisfied Reviews",
-          description: "A growing community of happy diners trust Delfin for exceptional experiences.",
-          icon: Users,
+          id: "metric-2",          value: "471+",          title: "Satisfied Reviews",          description: "A growing community of happy diners trust Delfin for exceptional experiences.",          icon: Users,
         },
         {
-          id: "metric-3",
-          value: "15+",
-          title: "Years of Culinary Excellence",
-          description: "Proudly serving Tetovo with authentic flavors and innovative dishes since establishment.",
-          icon: Award,
+          id: "metric-3",          value: "15+",          title: "Years of Culinary Excellence",          description: "Proudly serving Tetovo with authentic flavors and innovative dishes since establishment.",          icon: Award,
         },
       ]}
       title="Delfin at a Glance"
@@ -362,25 +218,13 @@ export default function LandingPage() {
       useInvertedBackground={false}
       faqs={[
         {
-          id: "faq-1",
-          title: "How do I make a reservation?",
-          content: "Reservations can be made directly on our website through the contact form, by calling us at 044 339 125, or by visiting us in person. We recommend booking in advance, especially for weekend evenings.",
-        },
+          id: "faq-1",          title: "How do I make a reservation?",          content: "Reservations can be made directly on our website through the contact form, by calling us at 044 339 125, or by visiting us in person. We recommend booking in advance, especially for weekend evenings."},
         {
-          id: "faq-2",
-          title: "Do you offer vegetarian or vegan options?",
-          content: "Yes, our menu includes a variety of vegetarian and vegan dishes. Please inform your server about any dietary restrictions or preferences, and our chefs will be happy to accommodate.",
-        },
+          id: "faq-2",          title: "Do you offer vegetarian or vegan options?",          content: "Yes, our menu includes a variety of vegetarian and vegan dishes. Please inform your server about any dietary restrictions or preferences, and our chefs will be happy to accommodate."},
         {
-          id: "faq-3",
-          title: "What are your operating hours?",
-          content: "Delfin is open daily from 8 AM to 11 PM. Our kitchen closes one hour before the restaurant closes. Special holiday hours may apply, please check our social media for updates.",
-        },
+          id: "faq-3",          title: "What are your operating hours?",          content: "Delfin is open daily from 8 AM to 11 PM. Our kitchen closes one hour before the restaurant closes. Special holiday hours may apply, please check our social media for updates."},
         {
-          id: "faq-4",
-          title: "Do you have outdoor seating?",
-          content: "Yes, we offer charming outdoor seating perfect for enjoying the weather. Outdoor tables are available on a first-come, first-served basis, or can be reserved by special request.",
-        },
+          id: "faq-4",          title: "Do you have outdoor seating?",          content: "Yes, we offer charming outdoor seating perfect for enjoying the weather. Outdoor tables are available on a first-come, first-served basis, or can be reserved by special request."},
       ]}
       imageSrc="http://img.b2bpic.net/free-photo/young-smiling-waiter-using-digital-tablet-while-communicating-with-couple-outdoor-cafe_637285-557.jpg"
       imageAlt="Restaurant host greeting guests at the entrance"
@@ -397,8 +241,7 @@ export default function LandingPage() {
       <ContactCenter
       useInvertedBackground={true}
       background={{
-        variant: "plain",
-      }}
+        variant: "plain"}}
       tag="Book Your Table"
       title="Make a Reservation"
       description="Planning a visit? Secure your table at Delfin for an exquisite dining experience. Fill out the form below or call us directly."
@@ -417,54 +260,33 @@ export default function LandingPage() {
       logoText="Delfin"
       columns={[
         {
-          title: "Explore",
-          items: [
+          title: "Explore",          items: [
             {
-              label: "Our Menu",
-              href: "#menu",
-            },
+              label: "Our Menu",              href: "#menu"},
             {
-              label: "About Us",
-              href: "#about",
-            },
+              label: "About Us",              href: "#about"},
             {
-              label: "Reviews",
-              href: "#testimonials",
-            },
+              label: "Reviews",              href: "#testimonials"},
             {
-              label: "FAQs",
-              href: "#faq",
-            },
+              label: "FAQs",              href: "#faq"},
           ],
         },
         {
-          title: "Visit Us",
-          items: [
+          title: "Visit Us",          items: [
             {
-              label: "2X5F+FF4, Marshal Tito, Tetovo 1220",
-              href: "https://maps.app.goo.gl/example",
-            },
+              label: "2X5F+FF4, Marshal Tito, Tetovo 1220",              href: "https://maps.app.goo.gl/example"},
             {
-              label: "+389 44 339 125",
-              href: "tel:+38944339125",
-            },
+              label: "+389 44 339 125",              href: "tel:+38944339125"},
             {
-              label: "delfin@example.com",
-              href: "mailto:delfin@example.com",
-            },
+              label: "delfin@example.com",              href: "mailto:delfin@example.com"},
           ],
         },
         {
-          title: "Hours",
-          items: [
+          title: "Hours",          items: [
             {
-              label: "Monday - Sunday",
-              href: "#",
-            },
+              label: "Monday - Sunday",              href: "#"},
             {
-              label: "8:00 AM - 11:00 PM",
-              href: "#",
-            },
+              label: "8:00 AM - 11:00 PM",              href: "#"},
           ],
         },
       ]}
