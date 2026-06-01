@@ -130,27 +130,36 @@ export default function LandingPage() {
       useInvertedBackground={true}
       products={[
         {
-          id: "product-1",          brand: "Delfin Classics",          name: "Macaroni and Cheese",          price: "MKD 450",          rating: 4.5,
-          reviewCount: "120 reviews",          imageSrc: "http://img.b2bpic.net/free-photo/pasta-with-mushroom_74190-836.jpg",          imageAlt: "Creamy baked macaroni and cheese"},
+          id: "menu-1",          brand: "Appetizers",          name: "Macedonian Appetizer Platter",          price: "MKD 550",          rating: 4.7,
+          reviewCount: "150 reviews",          imageSrc: "http://img.b2bpic.net/free-photo/top-view-deliciuos-food_23-2148782062.jpg",          imageAlt: "Traditional Macedonian appetizer platter"},
         {
-          id: "product-2",          brand: "Premium Cuts",          name: "Beef Steak",          price: "MKD 950",          rating: 4.8,
-          reviewCount: "210 reviews",          imageSrc: "http://img.b2bpic.net/free-photo/high-angle-steak-with-cutlery-copy-space_23-2148611071.jpg",          imageAlt: "Perfectly seared beef steak"},
+          id: "menu-2",          brand: "Appetizers",          name: "Homemade Tavche Gravche",          price: "MKD 420",          rating: 4.5,
+          reviewCount: "110 reviews",          imageSrc: "http://img.b2bpic.net/free-photo/bean-soup-ceramic-bowl_23-2147775586.jpg",          imageAlt: "Traditional Macedonian baked beans"},
         {
-          id: "product-3",          brand: "Artisan Pizza",          name: "Signature Pizza",          price: "MKD 600",          rating: 4.6,
-          reviewCount: "180 reviews",          imageSrc: "http://img.b2bpic.net/free-photo/baking-delicious-pizza-with-wood-fired-oven_23-2150134250.jpg",          imageAlt: "Freshly baked gourmet pizza"},
+          id: "menu-3",          brand: "Salads",          name: "Shopska Salad",          price: "MKD 390",          rating: 4.6,
+          reviewCount: "180 reviews",          imageSrc: "http://img.b2bpic.net/free-photo/salad_140725-103.jpg",          imageAlt: "Fresh Shopska Salad with sirene cheese"},
         {
-          id: "product-4",          brand: "Grill Master's Selection",          name: "Mixed Grilled Meat",          price: "MKD 850",          rating: 4.7,
-          reviewCount: "150 reviews",          imageSrc: "http://img.b2bpic.net/free-photo/fried-meat-with-vegetables-table_140725-4690.jpg",          imageAlt: "Platter of assorted grilled meats"},
+          id: "menu-4",          brand: "Fish & Seafood",          name: "Grilled Ohrid Trout",          price: "MKD 1200",          rating: 4.9,
+          reviewCount: "230 reviews",          imageSrc: "http://img.b2bpic.net/free-photo/fried-fish-served-with-potatoes-tomatoes-lemon-slice-sauce_140725-7844.jpg",          imageAlt: "Grilled Ohrid Trout with vegetables"},
         {
-          id: "product-5",          brand: "Fresh Catch",          name: "Grilled Fish",          price: "MKD 700",          rating: 4.4,
-          reviewCount: "90 reviews",          imageSrc: "http://img.b2bpic.net/free-photo/fried-fish-served-with-potatoes-tomatoes-lemon-slice-sauce_140725-7844.jpg",          imageAlt: "Grilled whole fish with herbs and lemon"},
+          id: "menu-5",          brand: "Meat Dishes",          name: "Delfin Mixed Grill",          price: "MKD 1400",          rating: 4.8,
+          reviewCount: "200 reviews",          imageSrc: "http://img.b2bpic.net/free-photo/fried-meat-with-vegetables-table_140725-4690.jpg",          imageAlt: "Delfin's generous mixed grilled meat platter"},
         {
-          id: "product-6",          brand: "Delfin Classics",          name: "Prime Steak",          price: "MKD 1000",          rating: 4.9,
-          reviewCount: "250 reviews",          imageSrc: "http://img.b2bpic.net/free-photo/fried-meat-with-tomato-slices-greens-sauce-rosemary-sprig_140725-8549.jpg",          imageAlt: "Juicy prime steak with a side dish"},
+          id: "menu-6",          brand: "Meat Dishes",          name: "Veshchali (Stuffed Pork Fillet)",          price: "MKD 1150",          rating: 4.7,
+          reviewCount: "140 reviews",          imageSrc: "http://img.b2bpic.net/free-photo/fried-meat-tomato-slices-greens-sauce-rosemary-sprig_140725-8549.jpg",          imageAlt: "Grilled Veshchali (stuffed pork fillet)"},
+        {
+          id: "menu-7",          brand: "Pasta & Risotto",          name: "Pasta Carbonara",          price: "MKD 680",          rating: 4.4,
+          reviewCount: "90 reviews",          imageSrc: "http://img.b2bpic.net/free-photo/delicious-spaghetti-served-with-bacon-cheese_23-2148566418.jpg",          imageAlt: "Creamy Pasta Carbonara with crispy bacon"},
+        {
+          id: "menu-8",          brand: "Desserts",          name: "Baklava with Walnuts",          price: "MKD 300",          rating: 4.6,
+          reviewCount: "130 reviews",          imageSrc: "http://img.b2bpic.net/free-photo/close-up-plate-with-baklava_23-2148464332.jpg",          imageAlt: "Traditional Baklava with chopped walnuts"},
+        {
+          id: "menu-9",          brand: "Desserts",          name: "Trilece (Three Milk Cake)",          price: "MKD 350",          rating: 4.5,
+          reviewCount: "100 reviews",          imageSrc: "http://img.b2bpic.net/free-photo/top-view-cheesecake-slice-berries_23-2148782067.jpg",          imageAlt: "Sweet and creamy Trilece (Three Milk Cake)"}
       ]}
-      title="Our Signature Dishes"
-      description="A glimpse into our diverse menu, featuring customer favorites and culinary masterpieces."
-      tag="From Our Kitchen to Your Table"
+      title="Delfin's Full Culinary Menu"
+      description="Explore a rich selection of Macedonian traditional dishes, international favorites, and delightful desserts, crafted with passion and the finest ingredients."
+      tag="Our Extensive Offerings"
     />
   </div>
 
